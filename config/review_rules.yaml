@@ -1,0 +1,51 @@
+# Code Reviewer Configuration
+
+# General rules (apply to all languages)
+general:
+  max_function_length: 50
+  max_nesting_depth: 4
+  max_complexity: 10
+
+# C/C++ specific rules
+cpp:
+  max_function_length: 60
+  max_complexity: 12
+  check_resource_leaks: true
+  check_null_pointers: true
+  check_missing_returns: true
+
+c:
+  max_function_length: 50
+  max_complexity: 10
+  check_resource_leaks: true
+  check_null_pointers: true
+  check_missing_returns: true
+
+# Python specific rules
+python:
+  max_function_length: 40
+  max_complexity: 8
+  check_bare_except: true
+  check_mutable_defaults: true
+  check_unused_imports: true
+  check_missing_docstrings: true
+
+# Java specific rules (for future)
+java:
+  max_function_length: 50
+  max_complexity: 10
+
+# Review behavior
+review:
+  # Severity threshold for failing CI
+  fail_on_severity: error
+  
+  # Categories to ignore
+  ignore_categories: []
+  
+  # Files/paths to exclude from review
+  exclude_paths:
+    - "test_*"
+    - "*_test.py"
+    - "tests/"
+    - "third_party/"
