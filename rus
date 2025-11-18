@@ -1,0 +1,5 @@
+kani ( GitHub - model-checking/kani: Kani Rust Verifier  ), 
+Miri ( GitHub - rust-lang/miri: An interpreter for Rust's mid-level intermediate representation  ), 
+MIRAI ( GitHub - facebookexperimental/MIRAI: Rust mid-level IR Abstract Interpreter  ),
+creusot ( GitHub - creusot-rs/creusot: Creusot helps you prove your code is correct in an automated fashion.  )  
+Here’s an interesting list of bugs found by Miri -- GitHub - rust-lang/miri: An interpreter for Rust's mid-level intermediate representation
