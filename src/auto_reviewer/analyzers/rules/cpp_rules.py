@@ -3,7 +3,7 @@ C/C++ specific analysis rules.
 """
 
 from typing import List, Optional
-from .tree_sitter_analyzer import AnalysisRule, CodeIssue
+from ..tree_sitter_analyzer import AnalysisRule, CodeIssue
 
 
 class MissingReturnRule(AnalysisRule):

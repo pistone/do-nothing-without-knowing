@@ -3,7 +3,7 @@ Python specific analysis rules.
 """
 
 from typing import List
-from .tree_sitter_analyzer import AnalysisRule, CodeIssue
+from ..tree_sitter_analyzer import AnalysisRule, CodeIssue
 
 
 class BareExceptRule(AnalysisRule):
